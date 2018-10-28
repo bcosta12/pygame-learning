@@ -14,7 +14,7 @@ gameDisplay = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 pygame.display.set_caption('A bit Racey')
 clock = pygame.time.Clock()
 
-SPACESHIP_IMG = pygame.image.load('assets/SpaceShip.png')
+SPACESHIP_IMG = pygame.image.load('../assets/SpaceShip.png')
 
 def spaceShip(x, y):
 
