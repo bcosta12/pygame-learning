@@ -9,7 +9,7 @@ crashed = False
 
 while not crashed:
 
-    for event in pygame.event.get(): # list of event for frame for seecond
+    for event in pygame.event.get(): # list of event for frame for second
         if event.type == pygame.QUIT: #type red x - on macosx
             crashed = True
 
